@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>PrimeReserve</title>
+
+        <style>
+
+            a{
+                text-decoration: none;
+            }
+
+            input{
+                outline: none;
+            }
+
+            body{
+                background-image: url(imagemdefundo.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .título{
+                font-size: 45px;
+                font-family: Century Gothic;
+                text-align: center;     
+            }
+            div.login{
+                margin: auto;
+                border: 7px solid white;
+                border-radius: 15px;
+                background-color: white;
+                width: 300px;
+                height: 400px;
+            }
+            .h2{
+                text-align: center;
+                font-family: Candara;
+                font-size: 20px;
+            }
+            form{
+                font-family: Candara;
+                font-size: 17px;
+            }
+            .p1{
+                margin-top: 90px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <header>
+            <h1 class="título">PrimeReserve</h1>
+        </header>
+        
+        <main>
+            <div class="login">
+                <h2 class="h2"><u>Faça seu Login</u></h2>
+                    <br>
+                    <form>
+                        <label for="Email">Digite seu Email:</label>
+                        <br>
+                        <input type="text" id="email" name="email" style="width: 250px;">
+                    </form>
+                    <br><br>
+
+                <form>
+                    <label for="Senha">Digite sua Senha:</label>
+                    <br>
+                    <input type="password" id="senha" name="senha" style="width: 250px;">
+                </form>
+    
+                <p><a href="RedefinirSenha.html">Esqueci Minha Senha</a></p>
+                <p class="h2"><button><a href="">ENTRAR</a></button></p>
+                <p class="p1">Ainda não tem uma conta? <button><a href="Cadastro.html">Cadastre-Se</a></button></p>
+            </div>
+        </main>
+        
+    </body>
+</html>
